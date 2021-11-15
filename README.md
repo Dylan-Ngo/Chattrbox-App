@@ -25,12 +25,12 @@ npm run dev
 
 ## Step 4: Open browser and go to  
 
-`http://localhost:3000`
+  `http://localhost:3000`
 
 * Enter username and start chatting
 
 ## Step 5: Open a new browser's window and go to
 
-`http://localhost:3000`
+  `http://localhost:3000`
 
 * Enter a different username and start chatting
