@@ -1,0 +1,31 @@
+{
+    "name": "chattrbox",
+    "version": "1.0.0",
+    "description": "cool chat app that uses avatars and Moments",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "build": "parcel build --no-minify app/scripts/src/main.js -d app/scripts/dist",
+        "watch": "parcel watch app/scripts/src/main.js -d app/scripts/dist"
+    },
+    "keywords": [
+        "cool",
+        "chat",
+        "app"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "crypto-js": "^3.3.0",
+        "jquery": "^3.6.0",
+        "moment": "^2.29.1",
+        "nodemon": "^2.0.15",
+        "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+        "ws": "^7.5.5",
+        "wscat": "^5.0.0"
+    }
+}
